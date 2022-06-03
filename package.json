@@ -1,0 +1,30 @@
+{
+    "name": "webuy_front",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@ethersproject/bignumber": "^5.6.2",
+      "@ethersproject/constants": "^5.6.1",
+      "@hashlike-official/extend-web3-react-wrapper": "^1.0.15",
+      "axios": "^0.26.1",
+      "next": "12.1.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-query": "^3.39.0",
+      "sass": "^1.52.1"
+    },
+    "devDependencies": {
+      "@types/node": "17.0.21",
+      "@types/react": "17.0.39",
+      "eslint": "8.10.0",
+      "eslint-config-next": "12.1.0",
+      "prettier": "2.6.2",
+      "typescript": "4.6.2"
+    }
+  }
